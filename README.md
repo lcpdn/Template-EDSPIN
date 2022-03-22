@@ -165,11 +165,11 @@ Currently the latex default font is the one used for the content.
 
 -----
 
-# ![(git logo)](https://www.inf.usi.ch/postdoc/roman/img/logo_git_50x50.png) Contribute
+# ![(git logo)](https://yousername.gitlab.io/img/logo_git_50x50.png) Contribute
 
 To propose changes, (1) you first have to request access to this repository (top page link, [HOWTO](https://docs.gitlab.com/ee/user/project/members/#project-membership-and-requesting-access)), (2) push your branch to this repository once access is granted, and finally (3) create a pull request with your proposed changes. Or just create an issue.
 
-Maintainers: Pierre-Louis Roman (romanp@usi.ch).
+Maintainers: Pierre-Louis Roman (pierre-louis.roman@epfl.ch).
 
 Contributors: Louiza Yala (original & main developer), Josquin Debaz, Pierre-Louis Roman, Lucas Bourneuf, Corentin Guezenoc, Clément Elbaz, Florian Arrestier, Alexandre Honorat.
 
