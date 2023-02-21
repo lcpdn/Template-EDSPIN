@@ -48,9 +48,13 @@ Paquets additionnels nécessaires :
 Le `Makefile` fournis vous aide à compiler votre document.
 Il utilise `pdflatex` et `biber` pour générer le fichier pdf et peut l'afficher grâce à `evince` sur Linux et `open` sur MacOS.
 
-Compiler votre document avec `pdflatex/biber` :
+Compiler votre document (version locale) avec `pdflatex/biber` :
 
     make
+
+Compiler la version complète du document (incluant les sections masquées)
+
+	make full
 
 Afficher le pdf généré :
 
@@ -59,6 +63,19 @@ Afficher le pdf généré :
 Suppimer tous les fichiers générés, pdf inclus :
 
     make clean
+
+
+### CI/CD (Gitlab)
+
+Il est possible de demander à gitlab de compiler automatiquement la version complète du manuscrit à chaque nouveau commit.
+Il faut effectuer les actions suivantes:
+
+
+- Settings -> General -> Visibility, project features, permissions -> Enable CI/CD
+- (Sur l'instance https://gitlab.inria.fr) Settings -> CI/CD -> Enable shared runners for this project
+
+Le document compilé sera disponible à cette URL: <repository url>-/jobs/artifacts/master/raw/main.pdf?job=building-latex-master
+Ex: https://gitlab.inria.fr/ed-mathstic/latex-template/-/jobs/artifacts/master/raw/main.pdf?job=building-latex-master
 
 
 ### Spécificités d'un document multilingue
@@ -131,9 +148,13 @@ Required additional packages:
 
 A `Makefile` is provided to help you compile your document. It uses `pdflatex` and`biber` to generate the pdf file and can display it by using `evince` on Linux or `open` on MacOS.
 
-Compile your document with `pdflatex/biber`:
+Compile your document (local version) with `pdflatex/biber`:
 
 	make
+
+Compile the whole document (including section masked locally):
+
+	make full
 
 Display the generated pdf:
 
@@ -142,6 +163,17 @@ Display the generated pdf:
 Remove all generated files, pdf included:
 
 	make clean
+
+#### CI/CD (Gitlab only)
+
+This repository is able to automatically compile the LaTeX document when a new change is submitted.
+To activate the auto compilation of the document:
+
+- Settings -> General -> Visibility, project features, permissions -> Enable CI/CD
+- (on the https://gitlab.inria.fr instance) Settings -> CI/CD -> Enable shared runners for this project
+
+The compiled document should be available at this URL: <repository url>-/jobs/artifacts/master/raw/main.pdf?job=building-latex-master
+Ex: https://gitlab.inria.fr/ed-mathstic/latex-template/-/jobs/artifacts/master/raw/main.pdf?job=building-latex-master
 
 
 #### Particularities of a multilanguage document

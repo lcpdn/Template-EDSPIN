@@ -47,8 +47,16 @@
 \mainmatter
 \input{./Chapitre1/chapitre1}
 
+
 \clearemptydoublepage
-\input{./Chapitre2/chapitre2}
+\ifenvsetTF{COMPILE_ALL}{
+	% Compile the chapter when the COMPILE_ALL environment variable is set
+	\input{./Chapitre2/chapitre2}
+}{
+	% Uncomment this line to compile this chapter locally (when the COMPILE_ALL variable is not set)
+	%\input{./Chapitre2/chapitre2}
+}
+
 
 \clearemptydoublepage
 \backmatter

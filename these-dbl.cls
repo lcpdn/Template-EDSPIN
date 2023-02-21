@@ -76,6 +76,17 @@
 %\renewcommand{\rmdefault}{qpl}
 %\renewcommand{\sfdefault}{qpl} 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% CONDITIONAL COMPILATION %%%%%%%%%%%%%%%
+\RequirePackage{xparse}
+\ExplSyntaxOn
+\tl_const:Nn \c_getenv_par_tl { \par }
+\NewDocumentCommand{\ifenvsetTF}{mmm}
+ {
+  \sys_get_shell:nnN { kpsewhich ~ --var-value ~ #1 } { } \l_tmpa_tl
+  \tl_if_eq:NNTF \l_tmpa_tl \c_getenv_par_tl { #3 } { #2 }
+ }
+\ExplSyntaxOff
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
