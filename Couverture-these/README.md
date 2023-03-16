@@ -14,7 +14,7 @@ https://ed-3m.doctorat-bretagneloire.fr/fr/7_presentation
 \etablissement{UA}    % Université d'Angers
 \etablissement{UBO}   % Université de Bretagne Occidentale
 \etablissement{UN}    % Université de Nantes
-\etablissement{UR1}   % Université de Rennes 1
+\etablissement{UR}    % Université de Rennes
 ```
 
 
@@ -49,8 +49,8 @@ Spécialités & unités de recherche: https://ed-bs.doctorat-bretagneloire.fr/fr
 \etablissement{UA}      % Université d'Angers
 \etablissement{UBO}     % Université de Bretagne Occidentale
 \etablissement{UN}      % Université de Nantes
-\etablissement{UR1}     % Université de Rennes 1
-\etablissement{UR1-UR2} % Délivrance conjointe - Joint degrees
+\etablissement{UR}      % Université de Rennes
+\etablissement{UR-UR2}  % Délivrance conjointe - Joint degrees
 ```
 
 
@@ -66,9 +66,9 @@ Spécialités & unités de recherche: https://ed-dsp.doctorat-bretagneloire.fr/f
 \etablissement{UBO}       % Université de Bretagne Occidentale
 \etablissement{UBS}       % Université de Bretagne Sud
 \etablissement{UN}        % Université de Nantes
-\etablissement{UR1}       % Université de Rennes 1
-\etablissement{UR1-EHESP} % Délivrance conjointe - Joint degrees
-\etablissement{UR1-UR2}   % Délivrance conjointe - Joint degrees
+\etablissement{UR}        % Université de Rennes
+\etablissement{UR-EHESP}  % Délivrance conjointe - Joint degrees
+\etablissement{UR-UR2}    % Délivrance conjointe - Joint degrees
 ```
 
 
@@ -86,8 +86,8 @@ Spécialités & unités de recherche: https://ed-edge.doctorat-bretagneloire.fr/
 \etablissement{UBO}          % Université de Bretagne Occidentale
 \etablissement{UBS}          % Université de Bretagne Sud
 \etablissement{UN}           % Université de Nantes
-\etablissement{UR1}          % Université de Rennes 1
-\etablissement{UR1-EHESP}    % Délivrance conjointe - Joint degrees
+\etablissement{UR}           % Université de Rennes
+\etablissement{UR-EHESP}     % Délivrance conjointe - Joint degrees
 ```
 
 
@@ -104,7 +104,7 @@ Spécialités & unités de recherche: https://ed-egaal.doctorat-bretagneloire.fr
 \etablissement{UA-LMU}       % Délivrance conjointe - Joint degrees
 \etablissement{UBO}          % Université de Bretagne Occidentale
 \etablissement{UN}           % Université de Nantes
-\etablissement{UR1}          % Université de Rennes 1
+\etablissement{UR}           % Université de Rennes
 ```
 
 
@@ -120,7 +120,7 @@ Spécialités & unités de recherche: https://ed-elicc.doctorat-bretagneloire.fr
 \etablissement{UBO} % Université de Bretagne Occidentale
 \etablissement{UBS} % Université de Bretagne Sud
 \etablissement{UN}  % Université de Nantes
-\etablissement{UR1} % Université de Rennes 1
+\etablissement{UR}  % Université de Rennes
 \etablissement{UR2} % Université de Rennes 2
 ```
 
@@ -145,9 +145,9 @@ Spécialités & unités de recherche: https://ed-mathstic.doctorat-bretagneloire
 \etablissement{UBO}              % Université de Bretagne Occidentale
 \etablissement{UBS}              % Université de Bretagne Sud
 \etablissement{UN}               % Université de Nantes
-\etablissement{UR1}              % Université de Rennes 1
-\etablissement{UR1-InstitutAgro} % Délivrance conjointe - Joint degrees
-\etablissement{UR1-UR2}          % Délivrance conjointe - Joint degrees
+\etablissement{UR}               % Université de Rennes
+\etablissement{UR-InstitutAgro}  % Délivrance conjointe - Joint degrees
+\etablissement{UR-UR2}           % Délivrance conjointe - Joint degrees
 ```
 
 
@@ -188,7 +188,7 @@ Spécialités & unités de recherche: https://ed-spi.doctorat-bretagneloire.fr/f
 \etablissement{UBS}       % Université de Bretagne Sud
 \etablissement{UN}        % Université de Nantes
 \etablissement{UN-Oniris} % Délivrance conjointe - Joint degrees
-\etablissement{UR1}       % Université de Rennes 1
+\etablissement{UR}        % Université de Rennes
 ```
 
 
@@ -206,7 +206,7 @@ Spécialités & unités de recherche: https://ed-stt.doctorat-bretagneloire.fr/f
 \etablissement{UBO}       % Université de Bretagne Occidentale
 \etablissement{UBS}       % Université de Bretagne Sud
 \etablissement{UN}        % Université de Nantes
-\etablissement{UR1}       % Université de Rennes 1
+\etablissement{UR}        % Université de Rennes
 \etablissement{UR2}       % Université de Rennes 2
 \etablissement{UR2-ENSAB} % Délivrance conjointe - Joint degrees
 ```
