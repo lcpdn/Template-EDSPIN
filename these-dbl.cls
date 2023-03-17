@@ -419,7 +419,7 @@
     }}
     \put(0,0){%
     \parbox[t][\paperheight]{\paperwidth}{%
-        \vspace{-14.5cm}
+        \vspace{-16.55cm}
         \includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{\vdirecole/image-fond-dos2}%
     }}
 }
