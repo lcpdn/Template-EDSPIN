@@ -17,100 +17,132 @@
     \hauteurlogoetablissementB{#3}
 }
 
+
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%% ECOLES DOCTORALES %%%%%%%%%%%%%%%%
 
-%%%% #1: dossier des images, #2: numero ED, #3: couleur ED, #4-#5: nom complet sur plusieurs lignes
-\newcommand\addecoledoctorale[5]{\direcole{#1}\numeroecole{#2}\definecolor{color-ecole}{RGB}{#3}\nomecoleA{#4}\nomecoleB{#5}}
+%%%% #1: dossier des images, #2: numero ED, #3: couleur ED recto, #4: couleur ED verso, #5-#6: nom complet sur plusieurs lignes
+\newcommand\addecoledoctorale[6]{
+    \direcole{#1}
+    \numeroecole{#2}
+    \definecolor{couleur-ecole-recto}{RGB}{#3}
+    \definecolor{couleur-ecole-verso}{RGB}{#4}
+    \nomecoleA{#5}
+    \nomecoleB{#6}
+}
 
 \makeswitch[default]\ecoledoctorale{}
 
-\addcase\ecoledoctorale{3M}{\addecoledoctorale
-    {3M}
-    {596}
-    {193,192,183}
-    {Mati\`{e}re, Mol\'{e}cules, Mat\'{e}riaux}
-    {}
-}
 \addcase\ecoledoctorale{ALL}{\addecoledoctorale
     {ALL}
     {595}
-    {240,209,134}
+    {255,165,139}
+    {232,86,18}
     {Arts, Lettres, Langues}
-    {}
-}
-\addcase\ecoledoctorale{BS}{\addecoledoctorale
-    {BS}
-    {605}
-    {163,219,208}
-    {Biologie, Sant\'{e}}
     {}
 }
 \addcase\ecoledoctorale{DSP}{\addecoledoctorale
     {DSP}
     {599}
-    {188,208,220}
-    {Droit et Science politique}
+    {255,241,170}
+    {255,214,12}
+    {Droit et Science politiques}
     {}
 }
 \addcase\ecoledoctorale{EDGE}{\addecoledoctorale
     {EDGE}
     {597}
-    {216,178,210}
-    {Sciences \'{E}conomiques et sciences De Gestion}
+    {255,254,101}
+    {255,237,0}
+    {Sciences \'{e}conomiques et sciences de gestion - Bretagne}
     {}
 }
 \addcase\ecoledoctorale{EGAAL}{\addecoledoctorale
     {EGAAL}
     {600}
-    {146,213,182}
-    {\'{E}cologie, G\'{e}osciences, Agronomie et Alimentation}
+    {0,118,0}
+    {0,93,49}
+    {\'{E}cologie, G\'{e}osciences, Agronomie, Alimentation}
     {}
     \hauteurlogos{2cm}{2cm}{2cm}
 }
-\addcase\ecoledoctorale{ELICC}{\addecoledoctorale
-    {ELICC}
-    {603}
-    {249,201,188}
+\addcase\ecoledoctorale{ELICCE}{\addecoledoctorale
+    {ELICCE}
+    {646}
+    {255,207,114}
+    {252,199,82}
     {\'{E}ducation, Langages, Interactions, Cognition, Clinique}
-    {}
+    {Expertise}
     \hauteurlogos{2cm}{2cm}{2cm}
 }
-\addcase\ecoledoctorale{MathSTIC}{\addecoledoctorale
-    {MathSTIC}
-    {601}
-    {236,115,127}
+\addcase\ecoledoctorale{ESC}{\addecoledoctorale
+    {ESC}
+    {645}
+    {255,164,85}
+    {240,138,0}
+    {Espaces, Soci\'{e}\'{e}s, Civilisations}
+    {}
+}
+\addcase\ecoledoctorale{MathSTICBO}{\addecoledoctorale
+    {MathSTICBO}
+    {644}
+    {190,212,233}
+    {139,181,221}
     {Math\'{e}matiques et Sciences et Technologies}
-    {de l'Information et de la Communication}
+    {de l'Information et de la Communication en Bretagne Oc\'{e}ane}
+}
+\addcase\ecoledoctorale{MATISSE}{\addecoledoctorale
+    {MATISSE}
+    {601}
+    {0,112,237}
+    {0,84,160}
+    {Math\'{e}matiques, T\'{e}l\'{e}communications, Informatique, Signal, Syst\`{e}mes,}
+    {\'{E}lectronique}
+}
+\addcase\ecoledoctorale{S3M}{\addecoledoctorale
+    {S3M}
+    {638}
+    {159,19,90}
+    {156,42,100}
+    {Sciences de la Mati\`{e}re, des Mol\'{e}cules et Mat\'{e}riaux}
+    {}
 }
 \addcase\ecoledoctorale{SML}{\addecoledoctorale
     {SML}
     {598}
-    {162,225,230}
+    {19,139,112}
+    {0,93,102}
     {Sciences de la Mer et du Littoral}
     {}
 }
 \addcase\ecoledoctorale{SPI}{\addecoledoctorale
     {SPI}
-    {602}
-    {159,182,217}
+    {647}
+    {136,191,255}
+    {63,133,193}
     {Sciences pour l'Ing\'{e}nieur}
     {}
 }
-\addcase\ecoledoctorale{STT}{\addecoledoctorale
-    {STT}
-    {604}
-    {172,184,192}
-    {Soci\'{e}t\'{e}s, temps, territoires}
+\addcase\ecoledoctorale{SPIN}{\addecoledoctorale
+    {SPIN}
+    {648}
+    {161,173,255}
+    {80,92,162}
+    {Sciences pour l'Ing\'{e}nieur et le Num\'{e}rique}
     {}
 }
-\addcase\ecoledoctorale{MATISSE}{\addecoledoctorale
-	{MATISSE}
-	{601}
-	{236,115,127}
-	{Math\'{e}matiques, t\'{e}l\'{e}communications, informatique,\\ signal, syst\'{e}mes, \'{e}lectronique }
-	{}
+\addcase\ecoledoctorale{SVS}{\addecoledoctorale
+    {SVS}
+    {637}
+    {228,255,122}
+    {200,210,0}
+    {Sciences de la Vie et de la Sant\'{e}}
+    {}
 }
+
 
 
 
