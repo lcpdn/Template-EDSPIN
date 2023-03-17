@@ -203,7 +203,7 @@ To propose changes, (1) you first have to request access to this repository (top
 
 Maintainers: Pierre-Louis Roman (pierre-louis.roman@epfl.ch).
 
-Contributors: Louiza Yala (original & main developer), Josquin Debaz, Pierre-Louis Roman, Lucas Bourneuf, Corentin Guezenoc, Clément Elbaz, Florian Arrestier, Alexandre Honorat.
+Contributors: Louiza Yala (original & main developer), Josquin Debaz, Pierre-Louis Roman, Lucas Bourneuf, Corentin Guezenoc, Clément Elbaz, Florian Arrestier, Alexandre Honorat, Antonin Voyez.
 
 Upstream git repository: https://gitlab.inria.fr/ed-mathstic/latex-template
 
