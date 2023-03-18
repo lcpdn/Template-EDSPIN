@@ -368,11 +368,11 @@
 % \vspace{5mm}
 {\normalTwelve \if\@nomecoleB\empty ~\\ \else \fi} % To compensate the 2 lines of MathSTIC
 {\setlength{\baselineskip}{0.9\baselineskip}
-{\largeTwelve \if\vnometablissementA\empty ~ \else \vnometablissementA \fi} \\
-{\largeTwelve \if\vnometablissementB\empty ~ \else \vnometablissementB \fi} \\
-{\largeTwelve \if\vnometablissementC\empty ~ \else \vnometablissementC \fi} \\
-{\largeTwelve \if\vnometablissementD\empty ~ \else \vnometablissementD \fi} \\
-{\largeTwelve \vnometablissementE} \\
+{\largeTwelve \if\vnometablissementA\empty ~ \else \textsc{\vnometablissementA} \fi} \\
+{\largeTwelve \if\vnometablissementB\empty ~ \else \textsc{\vnometablissementB} \fi} \\
+{\largeTwelve \if\vnometablissementC\empty ~ \else \textsc{\vnometablissementC} \fi} \\
+{\largeTwelve \if\vnometablissementD\empty ~ \else \textsc{\vnometablissementD} \fi} \\
+{\largeTwelve \textsc{\vnometablissementE}} \\
 \par}
 \vspace{0.01cm}
 {\setlength{\baselineskip}{0.7\baselineskip}
