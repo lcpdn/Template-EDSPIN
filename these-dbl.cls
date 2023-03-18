@@ -338,14 +338,14 @@
 \def\maketitle{%
   \thispagestyle{empty}
   \clearpage
-  %background image of the front cover
+  % Background image of the front cover
   \AddToShipoutPicture*{%
     \put(0,0){%
     \parbox[b][42.6cm]{\paperwidth}{%
         \vfill
         \includegraphics[width=\paperwidth,keepaspectratio,trim={0 5pt 0 0}]{\vdirecole/image-fond-garde} % Must trim white border off of bottom
         \begin{tikzpicture}
-            \fill[color-ecole] (0,0) rectangle (\paperwidth,4.4);
+            \fill[couleur-ecole-recto] (0,0) rectangle (\paperwidth,4.4);
         \end{tikzpicture}
         \vfill
   }}}
@@ -429,10 +429,10 @@
 
 \newcommand{\titleFR}[1]{%
 \vspace{1cm}
-{\centering \noindent \textcolor{color-ecole}{\rule{\textwidth}{0.2cm}}}
+{\centering \noindent \textcolor{couleur-ecole-verso}{\rule{\textwidth}{0.2cm}}}
 \vspace{-1cm}
 \selectlanguage{french}
-\section*{\selectfontbackcover\smallTwelve \textcolor{color-ecole}{Titre : }{\selectfontbackcover\mdseries{#1}}} % In this particular case, font style needs to get re-selected locally
+\section*{\selectfontbackcover\smallTwelve \textcolor{couleur-ecole-verso}{Titre : }{\selectfontbackcover\mdseries{#1}}} % In this particular case, font style needs to get re-selected locally
 }
 
 \newcommand{\keywordsFR}[1]{%
@@ -451,10 +451,10 @@
 
 \newcommand{\titleEN}[1]{%
 \vspace{0.5cm}
-{\centering \noindent \textcolor{color-ecole}{\rule{\textwidth}{0.2cm}}}
+{\centering \noindent \textcolor{couleur-ecole-verso}{\rule{\textwidth}{0.2cm}}}
 \vspace{-1cm}
 \selectlanguage{english}
-\section*{\selectfontbackcover\smallTwelve \textcolor{color-ecole}{Title: }{\selectfontbackcover\mdseries{#1}}} % In this particular case, font style needs to get re-selected locally
+\section*{\selectfontbackcover\smallTwelve \textcolor{couleur-ecole-verso}{Title: }{\selectfontbackcover\mdseries{#1}}} % In this particular case, font style needs to get re-selected locally
 }
 
 \newcommand{\keywordsEN}[1]{%
