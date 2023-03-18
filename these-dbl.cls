@@ -283,6 +283,9 @@
 \newcommand{\numthese}[1]{\gdef\@numthese{#1}}
 \numthese{}
 
+%%% Couleur de la police de la page de garde
+\newcommand{\couleurpolice}[1]{\gdef\@couleurpolice{#1}}
+\couleurpolice{black}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -360,6 +363,8 @@
 
 {\HugeTwelve \textsc{Th\`{e}se de doctorat de} \\}
 
+\color{\@couleurpolice} % Some schools use white font
+
 % \vspace{5mm}
 {\normalTwelve \if\@nomecoleB\empty ~\\ \else \fi} % To compensate the 2 lines of MathSTIC
 {\setlength{\baselineskip}{0.9\baselineskip}
@@ -391,6 +396,7 @@
 	 \textbf{Unit\'{e} de recherche : \@uniterecherche} \\
 	 \textbf{\if\@numthese\empty \else Th\`{e}se \No : \@numthese \fi} % Hide line if no number provided
 \end{spacing}
+\color{black}
 \vspace{1.3cm}
 	\begin{small}
 	\begin{spacing}{1}
