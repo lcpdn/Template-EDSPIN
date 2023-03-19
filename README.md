@@ -1,12 +1,11 @@
-# ![(French flag)](https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/50px-Flag_of_France.svg.png) Modèle de thèse Doctorat Bretagne Loire
+# ![(French flag)](https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/50px-Flag_of_France.svg.png) Modèle de thèse Collège Doctoral de Bretagne
 
 *Explications en français*
 
-Ce dépôt contient un modèle latex pour le manuscrit de thèse supportant toutes les écoles doctorales de l'[École des docteurs Bretagne Loire](https://www.doctorat-bretagneloire.fr/).
+Ce dépôt contient un modèle latex pour le manuscrit de thèse supportant toutes les écoles doctorales du [Collège Doctoral de Bretagne](https://www.doctorat-bretagne.fr/fr).
 
 Ce modèle a pour but principal de fournir une première et une quatrième de couverture du manuscrit de thèse intégralement écrites en latex.
-Ces couvertures ont été (manuellement) calquées sur le modèle original au format M$ Word fourni par MathSTIC en 2018, puis généralisé à toutes les écoles doctorales DBL.
-Tandis que la couverture du manuscrit se doit de respecter le format établi par DBL, la disposition du contenu interne du manuscrit est elle plus flexible.
+Tandis que la couverture du manuscrit se doit de respecter le format établi par CDL, la disposition du contenu interne du manuscrit est elle plus flexible.
 La disposition proposée dans ce modèle est donc donnée à titre d'exemple mais il n'est cependant pas obligatoire de la respecter.
 
 
@@ -99,15 +98,14 @@ Actuellement la police par défaut de latex est celle utilisée pour le contenu.
 
 -----
 
-# ![(UK flag)](https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/50px-Flag_of_the_United_Kingdom.svg.png) Thesis template for Doctorat Bretagne Loire
+# ![(UK flag)](https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/50px-Flag_of_the_United_Kingdom.svg.png) Thesis template for Collège Doctorat de Bretagne
 
 *English explanations*
 
-This repository contains a template for the thesis manuscript supporting all doctoral schools of the [École des docteurs Bretagne Loire](https://www.doctorat-bretagneloire.fr/).
+This repository contains a template for the thesis manuscript supporting all doctoral schools of the [Collège Doctoral de Bretagne](https://www.doctorat-bretagne.fr/en).
 
 The main goal of this template is to provide both front and back covers of the thesis manuscript entirely written in latex.
-These covers have been (manually) reproduced from the original M$ Word model provided by MathSTIC in 2018, then generalized to all doctoral schools.
-While the manuscript covers must follow the rules of DBL, the internal layout of the content is more flexible.
+While the manuscript covers must follow the rules of CDL, the internal layout of the content is more flexible.
 The content layout provided in this template is therefore given as an exemple rather than as a  mandatory framework.
 
 
@@ -207,8 +205,5 @@ Contributors: Louiza Yala (original & main developer), Josquin Debaz, Pierre-Lou
 
 Upstream git repository: https://gitlab.inria.fr/ed-mathstic/latex-template
 
-Previous upstream git repository (2019-2020): https://gitlab.inria.fr/proman/mathstic-thesis-template
-
-Alternative repositories with a squashed history:
+Repository hosting an older version available on Overleaf:
 - https://github.com/remolaz/PhD_Thesis_Template_MathSTIC
-- https://github.com/ahonorat/mathSTICtemplatePhD

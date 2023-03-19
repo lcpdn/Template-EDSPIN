@@ -17,12 +17,12 @@
 % Ajouts de boites et encarts grises
 % revision de l'enchainement des chapitres
 % Mise aux normes typographiques suivant les Regles Typographiques
-% en usage \`{a} l'Imprimerie Nationale
+% en usage a l'Imprimerie Nationale
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{these-dbl}[11/07/2021 v5.1]
+\ProvidesClass{these-dbl}[19/03/2023 v6]
 
 \LoadClass[twoside,multicol,12pt,a4paper]{report}	% notez le "twoside", essentiellement pour alterner les en-tete et pieds de page gauche et droit si on veut utliser les fancyhead. 
 
@@ -75,6 +75,8 @@
 % Override default font here if you want
 %\renewcommand{\rmdefault}{qpl}
 %\renewcommand{\sfdefault}{qpl} 
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%% CONDITIONAL COMPILATION %%%%%%%%%%%%%%%
