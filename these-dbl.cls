@@ -249,11 +249,11 @@
 
 %%%% Hauteur des logos, variable selon les (double) affiliations
 \newcommand*{\hauteurlogoecole}[1]{\gdef\vhauteurlogoecole{#1}}
-\hauteurlogoecole{2.4cm}
+\hauteurlogoecole{2cm}
 \newcommand*{\hauteurlogoetablissementA}[1]{\gdef\vhauteurlogoetablissementA{#1}}
 \hauteurlogoetablissementA{}
 \newcommand*{\hauteurlogoetablissementB}[1]{\gdef\vhauteurlogoetablissementB{#1}}
-\hauteurlogoetablissementB{2.4cm}
+\hauteurlogoetablissementB{2cm}
 
 %%%% Eventuel sous-titre
 \newcommand{\lesoustitre}[1]{\gdef\@lesoustitre{#1}}
