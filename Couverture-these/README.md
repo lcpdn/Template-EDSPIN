@@ -123,9 +123,9 @@ Unités de recherche : https://ed-matisse.doctorat-bretagne.fr/fr/presentation-d
 \ecoledoctorale{MATISSE}
 
 \etablissement{CS}              % CentraleSupélec
-\etablissement{ENS}             % École Normale Supérieure Rennes
+\etablissement{ENS}             % École Normale Supérieure de Rennes
 \etablissement{ENSAI}           % École Nationale de la Statistique et de l'Analyse de l'Information
-\etablissement{INSA}            % Institut National des Sciences Appliquées Rennes
+\etablissement{INSA}            % Institut National des Sciences Appliquées de Rennes
 \etablissement{InstitutAgro-UR} % Délivrance conjointe - Joint degrees
 \etablissement{UR2-UR}          % Délivrance conjointe - Joint degrees
 \etablissement{UR}              % Université de Rennes
@@ -142,7 +142,7 @@ Unités de recherche : https://ed-s3m.doctorat-bretagne.fr/fr/presentation-de-le
 \ecoledoctorale{S3M}
 
 \etablissement{ENSCR} % École Nationale Supérieure de Chimie Rennes
-\etablissement{INSA}  % Institut National des Sciences Appliquées Rennes
+\etablissement{INSA}  % Institut National des Sciences Appliquées de Rennes
 \etablissement{UBO}   % Université de Bretagne Occidentale
 \etablissement{UR}    % Université de Rennes
 ```
@@ -171,8 +171,8 @@ Spécialités et unités de recherche : https://ed-spi-bzh.doctorat-bretagne.fr/
 \ecoledoctorale{SPI}
 
 \etablissement{ENIB-UBO} % Délivrance conjointe - Joint degrees
-\etablissement{ENS}      % École Normale Supérieure Rennes
-\etablissement{INSA}     % Institut National des Sciences Appliquées Rennes
+\etablissement{ENS}      % École Normale Supérieure de Rennes
+\etablissement{INSA}     % Institut National des Sciences Appliquées de Rennes
 \etablissement{UBO}      % Université de Bretagne Occidentale
 \etablissement{UBS}      % Université Bretagne Sud
 \etablissement{UR}       % Université de Rennes
@@ -201,7 +201,7 @@ Unités de recherche : https://ed-svs.doctorat-bretagne.fr/fr/presentation#p-230
 \ecoledoctorale{SVS}
 
 \etablissement{EHESP}  % École des Hautes Études en Santé Publique de Rennes
-\etablissement{ENS}    % École Normale Supérieure Rennes
+\etablissement{ENS}    % École Normale Supérieure de Rennes
 \etablissement{UBO}    % Université de Bretagne Occidentale
 \etablissement{UR}     % Université de Rennes
 \etablissement{UR2-UR} % Délivrance conjointe - Joint degrees
