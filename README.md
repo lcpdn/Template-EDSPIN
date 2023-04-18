@@ -71,10 +71,11 @@ Il faut effectuer les actions suivantes:
 
 
 - Settings -> General -> Visibility, project features, permissions -> Enable CI/CD
-- (Sur l'instance https://gitlab.inria.fr) Settings -> CI/CD -> Enable shared runners for this project
+- (Sur l'instance https://gitlab.com) Settings -> CI/CD -> Enable shared runners for this project
 
 Le document compilé sera disponible à cette URL: <repository url>-/jobs/artifacts/master/raw/main.pdf?job=building-latex-master
-Ex: https://gitlab.inria.fr/ed-mathstic/latex-template/-/jobs/artifacts/master/raw/main.pdf?job=building-latex-master
+
+Ex: https://gitlab.com/ed-matisse/latex-template/-/jobs/artifacts/master/raw/main.pdf?job=building-latex-master
 
 
 ### Spécificités d'un document multilingue
@@ -168,10 +169,11 @@ This repository is able to automatically compile the LaTeX document when a new c
 To activate the auto compilation of the document:
 
 - Settings -> General -> Visibility, project features, permissions -> Enable CI/CD
-- (on the https://gitlab.inria.fr instance) Settings -> CI/CD -> Enable shared runners for this project
+- (on the https://gitlab.com instance) Settings -> CI/CD -> Enable shared runners for this project
 
 The compiled document should be available at this URL: <repository url>-/jobs/artifacts/master/raw/main.pdf?job=building-latex-master
-Ex: https://gitlab.inria.fr/ed-mathstic/latex-template/-/jobs/artifacts/master/raw/main.pdf?job=building-latex-master
+
+Ex: https://gitlab.com/ed-matisse/latex-template/-/jobs/artifacts/master/raw/main.pdf?job=building-latex-master
 
 
 #### Particularities of a multilanguage document
@@ -203,7 +205,7 @@ Maintainers: Pierre-Louis Roman (pierre-louis.roman@epfl.ch).
 
 Contributors: Louiza Yala (original & main developer), Josquin Debaz, Pierre-Louis Roman, Lucas Bourneuf, Corentin Guezenoc, Clément Elbaz, Florian Arrestier, Alexandre Honorat, Antonin Voyez.
 
-Upstream git repository: https://gitlab.inria.fr/ed-mathstic/latex-template
+Upstream git repository: https://gitlab.com/ed-matisse/latex-template
 
 Repository hosting an older version available on Overleaf:
 - https://github.com/remolaz/PhD_Thesis_Template_MathSTIC
