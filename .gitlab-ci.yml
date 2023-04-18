@@ -12,4 +12,4 @@ building-latex-master:
   only:
     - master
   tags:
-    - ci.inria.fr
+    - saas-linux-small-amd64
