@@ -99,7 +99,7 @@ Actuellement la police par défaut de latex est celle utilisée pour le contenu.
 
 -----
 
-# ![(UK flag)](https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/50px-Flag_of_the_United_Kingdom.svg.png) Thesis template for Collège Doctorat de Bretagne
+# ![(UK flag)](https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/50px-Flag_of_the_United_Kingdom.svg.png) Thesis template for Collège Doctoral de Bretagne
 
 *English explanations*
 
@@ -199,7 +199,7 @@ Currently the latex default font is the one used for the content.
 
 # ![(git logo)](https://yousername.gitlab.io/img/logo_git_50x50.png) Contribute
 
-To propose changes, (1) you first have to request access to this repository (top page link, [HOWTO](https://docs.gitlab.com/ee/user/project/members/#project-membership-and-requesting-access)), (2) push your branch to this repository once access is granted, and finally (3) create a pull request with your proposed changes. Or just create an issue.
+Merge requests are very welcome.
 
 Maintainers: Pierre-Louis Roman (pierre-louis.roman@epfl.ch).
 
@@ -207,5 +207,5 @@ Contributors: Louiza Yala (original & main developer), Josquin Debaz, Pierre-Lou
 
 Upstream git repository: https://gitlab.com/ed-matisse/latex-template
 
-Repository hosting an older version available on Overleaf:
-- https://github.com/remolaz/PhD_Thesis_Template_MathSTIC
+Previous repository hosting an older version from 2022:
+- https://gitlab.inria.fr/ed-mathstic/latex-template
