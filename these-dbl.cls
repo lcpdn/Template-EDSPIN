@@ -37,6 +37,7 @@
 \RequirePackage[T1]{fontenc} % permet de sp\'{e}cifier \`{a} LaTeX l'utilisation du codage de caract\`{e}res T1, nouvelle norme LaTeX non utilis\'{e}e par d\'{e}faut pour des raisons de compatibilit\'{e} avec les anciens documents LaTeX.
 \RequirePackage{lmodern} % Assurer une bonne impression!
 \RequirePackage{tikz} % tikz est utilise pour tracer des boites, par exemple
+\usetikzlibrary{fadings}
 \RequirePackage{fix-cm}
 \RequirePackage{abstract}
 \RequirePackage{graphicx} % Pour ins\'{e}rer des images. Utiliser le format jpg pour plus de simplicit\'{e}.
@@ -347,12 +348,13 @@
   \AddToShipoutPicture*{%
     \put(0,0){%
     \parbox[b][42.6cm]{\paperwidth}{%
-        \vfill
-        \includegraphics[width=\paperwidth,keepaspectratio,trim={0 5pt 0 0}]{\vdirecole/image-fond-garde} % Must trim white border off of bottom
-        \begin{tikzpicture}
-            \fill[couleur-ecole-recto] (0,0) rectangle (\paperwidth,4.4);
-        \end{tikzpicture}
-        \vfill
+        
+%        \includegraphics[width=\paperwidth,keepaspectratio,trim={0 5pt 0 0}]{\vdirecole/image-fond-garde.png} % Must trim white border off of bottom
+%        \begin{tikzpicture}
+%            \fill[couleur-ecole-recto] (0,0) rectangle (\paperwidth,4.4);
+%        \end{tikzpicture}
+		\input{./Couverture-these/cover_tikz}
+    \vspace{10cm}
   }}}
   \displayLogos
   %
@@ -420,16 +422,21 @@
 \newcommand{\backcoverheader}{%
 \thispagestyle{empty}
 \AddToShipoutPicture*{%
-    \put(0,0){%
-    \parbox[t][\paperheight]{\paperwidth}{%
-        \vspace{-29.6cm}
-        \includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{\vdirecole/image-fond-dos}%
-    }}
-    \put(0,0){%
-    \parbox[t][\paperheight]{\paperwidth}{%
-        \vspace{-16.55cm}
-        \includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{\vdirecole/image-fond-dos2}%
-    }}
+%    \put(0,0){%
+%    \parbox[t][\paperheight]{\paperwidth}{%
+%        \vspace{-29.6cm}
+%        \includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{\vdirecole/image-fond-dos}%
+%    }}
+%    \put(0,0){%
+%    \parbox[t][\paperheight]{\paperwidth}{%
+%        \vspace{-16.55cm}
+%        \includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{\vdirecole/image-fond-dos2}%
+%    }}
+	\put(0,0){%
+	\parbox[t][\paperheight]{\paperwidth}{%
+        \vspace{-33.1cm}
+		\input{./Couverture-these/backcover_tikz}
+	}}
 }
 \hspace{9mm}
 \displayLogos
