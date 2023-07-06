@@ -37,7 +37,7 @@
 \RequirePackage[T1]{fontenc} % permet de sp\'{e}cifier \`{a} LaTeX l'utilisation du codage de caract\`{e}res T1, nouvelle norme LaTeX non utilis\'{e}e par d\'{e}faut pour des raisons de compatibilit\'{e} avec les anciens documents LaTeX.
 \RequirePackage{lmodern} % Assurer une bonne impression!
 \RequirePackage{tikz} % tikz est utilise pour tracer des boites, par exemple
-\usetikzlibrary{fadings}
+\usetikzlibrary{fadings,babel}
 \RequirePackage{fix-cm}
 \RequirePackage{abstract}
 \RequirePackage{graphicx} % Pour ins\'{e}rer des images. Utiliser le format jpg pour plus de simplicit\'{e}.
