@@ -203,7 +203,7 @@ Merge requests are very welcome.
 
 Maintainers: Pierre-Louis Roman (pierre-louis.roman@epfl.ch).
 
-Contributors: Louiza Yala (original & main developer), Josquin Debaz, Pierre-Louis Roman, Lucas Bourneuf, Corentin Guezenoc, Clément Elbaz, Florian Arrestier, Alexandre Honorat, Antonin Voyez, Pierre Le Barbenchon.
+Contributors: Louiza Yala (original & main developer), Josquin Debaz, Pierre-Louis Roman, Lucas Bourneuf, Corentin Guezenoc, Clément Elbaz, Florian Arrestier, Alexandre Honorat, Antonin Voyez, Pierre Le Barbenchon, Arthur Lecert.
 
 Upstream git repository: https://gitlab.com/ed-matisse/latex-template
 
